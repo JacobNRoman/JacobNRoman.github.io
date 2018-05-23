@@ -55,7 +55,7 @@ html, body, .summer-post-container, .summer-post-header {
     .post-template .summer-post-header .summer-post-menu-header {
       width: 100%;
       height: 5rem;
-      background-color: black;
+      background-color: #0216ee;
       color: white;
       position: absolute;
       top: 0;
@@ -96,7 +96,7 @@ html, body, .summer-post-container, .summer-post-header {
     .post-template .summer-post-title a {
       color: black; }
       .post-template .summer-post-title a:hover {
-        color: #e51843; }
+        color: #eeda02; }
     .post-template .summer-post-title h1 {
       color: black;
       font-weight: 800;
@@ -370,7 +370,7 @@ html, body, .summer-post-container, .summer-post-header {
   .summer-page-container .summer-page-menu-header {
     width: 100%;
     height: 5rem;
-    background-color: black;
+    background-color: #0216ee;
     color: white;
     position: relative;
     z-index: 9999; }
@@ -468,11 +468,11 @@ html, body, .summer-post-container, .summer-post-header {
       margin-right: auto; } }
 
 ::selection {
-  background: #e51843;
+  background: #eeda02;
   color: #fff; }
 
 ::-moz-selection {
-  background: #e51843;
+  background: #eeda02;
   color: #fff; }
 
 pre {
