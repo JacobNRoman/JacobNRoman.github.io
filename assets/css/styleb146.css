@@ -212,7 +212,7 @@ h1, h2, h3, h4, h5, h6 {
       display: block;
       font-size: 3.25rem;
       font-weight: 800;
-      color: #eeda02;
+      color: #0216ee;
       font-family: "Montserrat", sans-serif; }
     .summer-content .summer-index-post .summer-post-meta .month-year {
       display: block;
@@ -261,8 +261,8 @@ h1, h2, h3, h4, h5, h6 {
       border: 0.0625rem solid black;
       border-radius: 0.125rem; }
       .summer-content .summer-index-post .summer-index-post-tags a:hover {
-        color: #eeda02;
-        border: 0.0625rem solid #eeda02; }
+        color: #0216ee;
+        border: 0.0625rem solid #0216ee; }
   @media only screen and (min-width: 40.063em) {
     .summer-content .summer-index-post .summer-index-post-tags {
       text-align: left; } }
@@ -380,7 +380,7 @@ nav.pagination {
     padding-bottom: 3.125rem;
     text-align: center; }
     .summer-tags-container .summer-tags-header .tag-name {
-      color: #eeda02;
+      color: #0216ee;
       text-transform: none; }
     @media only screen and (min-width: 40.063em) {
       .summer-tags-container .summer-tags-header {
