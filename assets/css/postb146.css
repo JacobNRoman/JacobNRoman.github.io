@@ -39,12 +39,11 @@ html, body, .summer-post-container, .summer-post-header {
   /* -------------------------- */
   /* Delays */ }
   .post-template .summer-blog-menu .summer-mobile-menu a {
-    color: white; }
-    .post-template .summer-blog-menu .summer-mobile-menu a:hover {
-      color: white; }
+    color: 
+      color: black; }
   @media only screen and (min-width: 40.063em) {
     .post-template .summer-blog-menu ul li a {
-      color: white; }
+      color: black; }
       .post-template .summer-blog-menu ul li a:hover {
         border-bottom: 0.1875rem solid white; } }
   .post-template .summer-post-header {
@@ -116,7 +115,7 @@ html, body, .summer-post-container, .summer-post-header {
     .post-template .summer-post-title.background--light h1 {
       color: black; }
     .post-template .summer-post-title.background--dark h1 {
-      color: white; }
+      color: black; }
   .post-template button.trigger {
     position: fixed;
     bottom: 2.5rem;
