@@ -20,13 +20,13 @@ html, body, .summer-post-container, .summer-post-header {
   font-family: "Montserrat", sans-serif;
   font-size: 1.625rem;
   font-weight: 700;
-  color: white;
+  color: black;
   text-transform: uppercase;
   letter-spacing: -0.0625rem; }
   .summer-post-header-title a {
-    color: white; }
+    color: black; }
     .summer-post-header-title a:hover {
-      color: white; }
+      color: black; }
 
 .post-template {
   /* Header */
