@@ -387,8 +387,7 @@ html, body, .summer-post-container, .summer-post-header {
       .summer-page-container .summer-page-title a:hover {
         color: #eeda02; }
     .summer-page-container .summer-page-title h1 {
-      color: white;
-      background-color: 0216ee;
+      color: black;
       font-weight: 800;
       font-size: 3.125rem;
       padding: 0;
