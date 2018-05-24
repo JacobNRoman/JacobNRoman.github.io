@@ -43,9 +43,9 @@ html, body, .summer-post-container, .summer-post-header {
       color: black; }
   @media only screen and (min-width: 40.063em) {
     .post-template .summer-blog-menu ul li a {
-      color: black; }
+      color: #eeda02; }
       .post-template .summer-blog-menu ul li a:hover {
-        border-bottom: 0.1875rem solid white; } }
+        border-bottom: 0.1875rem solid #eeda02; } }
   .post-template .summer-post-header {
     position: relative;
     margin: 0 auto;
@@ -55,7 +55,7 @@ html, body, .summer-post-container, .summer-post-header {
       width: 100%;
       height: 5rem;
       background-color: #0216ee;
-      color: white;
+      color: #eeda02;
       position: absolute;
       top: 0;
       left: 0;
