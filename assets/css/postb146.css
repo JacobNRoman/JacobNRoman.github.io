@@ -193,7 +193,7 @@ html, body, .summer-post-container, .summer-post-header {
         .post-template .summer-post-content > div:not(.summer-post-title) {
           margin: -10% auto 0; } }
       .post-template .summer-post-content > div:not(.summer-post-title) a, .post-template .summer-post-content > div:not(.summer-post-title) code {
-        color: #e51843; }
+        color: black; }
       .post-template .summer-post-content > div:not(.summer-post-title) ul, .post-template .summer-post-content > div:not(.summer-post-title) ol {
         padding-left: 1.25rem;
         font-size: 1.125rem; }
@@ -300,11 +300,11 @@ html, body, .summer-post-container, .summer-post-header {
   padding-top: 3.75rem;
   padding-bottom: 3.75rem;
   border-top: 0.0625rem solid #f2f2f2;
-  color: #e51843; }
+  color: #eeda02; }
   .summer-post-share a {
     display: inline-block;
     margin: 0 0.9375rem;
-    color: #e51843; }
+    color: #eeda02; }
   @media only screen and (min-width: 40.063em) {
     .summer-post-share {
       padding-top: 5rem;
@@ -347,7 +347,7 @@ html, body, .summer-post-container, .summer-post-header {
     .summer-author-info .summer-post-author > p {
       font-size: 1.125rem; }
       .summer-author-info .summer-post-author > p a {
-        color: #e51843; }
+        color: #eeda02; }
     .summer-author-info .summer-post-author .summer-post-author-avatar {
       width: 12.5rem;
       height: 12.5rem;
