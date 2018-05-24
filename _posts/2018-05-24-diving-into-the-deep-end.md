@@ -3,12 +3,12 @@ layout: post
 published: true
 categories:
   - personal
-mathjax: false
+mathjax: true
 featured: true
 comments: false
 title: Diving Into the Deep End
 description: The First Blog Post
-tags: 'Blogging, Career, Personal, Programming, Webdev, CSS'
+tags: Career Personal CSS
 ---
 The First Blog Post
 -------------------
@@ -57,5 +57,5 @@ And this, I must tell you, was first up close and personal encounter with Real C
 But by the end I was beginning to suss out the logic, the structure, and was making sharp guesses that lead me pretty quickly to modifying what I wanted. As it stands, my theme is about ninety-percent where I want it to be. There's still some little fixes to be made, but I feel proud of it, and am less intimidated by large CSS files.  To more experienced webdevs I'm sure this is trivial, an everyday sort of thing.  But for me, it was a sharp plunge into the deep end. 
 
 *whizz* they go.
-*gurglesplashsputter* I cheerfully respond.
+*gurgleSplashSputter* I cheerfully respond.
 
