@@ -10,10 +10,9 @@ title: Diving Into the Deep End
 description: The First Blog Post
 tags: Career Personal CSS
 ---
-The First Blog Post
--------------------
+###I nearly drowned when I was five. 
 
-I nearly drowned when I was five. I was at a public pool, and I couldn't yet swim, and another kid launched into me from behind and knocked me deep under. My lungs filled with water, I couldn't float, couldn't find purchase on the pool floor. I was blacking out when the lifeguard finally noticed me. 
+I was at a public pool, and I couldn't yet swim, and another kid launched into me from behind and knocked me deep under. My lungs filled with water, I couldn't float, couldn't find purchase on the pool floor. I was blacking out when the lifeguard finally noticed me. 
 
 I remember thinking, "Huh, well that's it then?". 
 
@@ -41,8 +40,7 @@ That's what this diary is for. To help focus, and reflect, to celebrate achievem
 
 So, in that spirit, lets talk about
 
-How I Built This Blog
----------------------
+###How I Built This Blog
 
 I knew that I wanted something I could host on Github Pages, something that was customizable but wouldn't require a ton of maintenance. A cursory search led me to discovering Jekyll, a static web-site generator based out of Ruby. Jekyll is designed with with an awareness towards the tools need for blogging, and is designed to create lightweight, blazing fast websites since it only serves up static content (which is all I need for a blog anyway). As a nice bonus, you don't need a database!
 
