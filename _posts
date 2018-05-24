@@ -1,12 +1,13 @@
 ---
 layout: post
 published: true
-title: An Awesome Headline!
+title: Stepping Into the Deep End
 categories:
   - personal
 mathjax: false
 featured: false
 comments: false
+description: The First Blog Post
 ---
 Stepping Into the Deep End
 ==========================
