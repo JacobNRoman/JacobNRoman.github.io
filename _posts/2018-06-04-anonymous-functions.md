@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 mathjax: true
 featured: true
 comments: false
@@ -9,27 +9,34 @@ categories:
   - personal
   - software
 tags: '"Anonymous Functions" "Lamba Expressions" "Android" "Java" "Javascript"'
+description: ''
+headline: ''
+modified: ''
+imagefeature: ''
 ---
 ## What's in a name?
 
-Lately I've been working my way through the free version of Udacity's [Android Basics](https://www.udacity.com/course/android-basics-nanodegree-by-google--nd803) course. It's a great and extremely newbie friendly path to learning android dev, and I've had a lot of fun with it, although if you have coding experience you may find yourself skipping a lot of sections. In the past couple weeks I've encountered something I haven't really used before: ****Anonymous functions**** They are heavily used when writing/overriding many builtin Android methods, including OnClickListeners, which are used to respond to when a user taps on an element of your app (something you are going to do a lot). Here's an example from my code:
+Lately I've been working my way through the free version of Udacity's [Android Basics](https://www.udacity.com/course/android-basics-nanodegree-by-google--nd803) course. It's a great and extremely newbie friendly path to learning android dev, and I've had a lot of fun with it, although if you have coding experience you may find yourself skipping a lot of sections. In the past couple weeks I've encountered something I haven't really used before: ****Anonymous functions****. They are heavily used when writing/overriding many builtin Android methods, including OnClickListeners, which are used to respond to when a user taps on an element of your app (something you are going to do a lot). Here's an example from my code:
 
-		//defines and grabs a view from the xml layout
-		TextView numbersView = (TextView) findViewById(R.id.numbers);
+```java
+TextView numbersView = (TextView) findViewById(R.id.numbers);
 		
-        //calls the setOnClickListener method on that view
-        //passing in a NEW FUNCTION AS A PARAMETER?
-        numbersView.setOnClickListener(new View.OnClickListener(){
-			
-            @Override
-            public void onClick(View view){
-                Intent intent = new Intent(MainActivity.this, NumbersActivity.class);
-                startActivity(intent);
-            }
+numbersView.setOnClickListener(new View.OnClickListener(){
+		
+	@Override
+    	public void onClick(View view){
+        	Intent intent = new Intent(MainActivity.this, NumbersActivity.class);
+            startActivity(intent);
         }
-        );
-        
-This left me blinking the first time I encountered it. The program said that this was more concise that defining a function elsewhere to only use it once, and yes, sure, but it also seemed a lot less readable. Ultimately I just accepted it as a convention and have used it a few dozen times since. But it keeps eating at me. Exactly what are these for? It can't just be concision. 
+    }
+    );
+```
 
-Sounds like its time to plumb the depths of Anonymous Functions.
+First I find grab a specific TextView from within my xml layout, then I call the setOnClickListener method on that TextView passing in a function definition as a parameter.
+        
+This left me blinking the first time I encountered it. The program instructor said that using an anonymous function like this was more concise than defining a function elsewhere to only use it once, and yes, sure, but it also seemed a lot less readable. Ultimately I just accepted it as a convention and have used it a few dozen times since. But it keeps eating at me. Exactly what are anonymous functions for? It can't just be concision. 
+
+Well, maybe it is. [Oracle's Java Documentation](https://docs.oracle.com/javase/tutorial/java/javaOO/anonymousclasses.html) leads off with "Anonymous classes enable you to make your code more concise." 
+
+
 
