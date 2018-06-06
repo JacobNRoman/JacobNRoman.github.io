@@ -13,7 +13,7 @@ tags: '"Anonymous Functions" "Lamba Expressions" "Android" "Java" "Javascript"'
 ## What's in a name?
 
 
-Lately I've been working my way through the free version of Udacity's [Android Basics](https://www.udacity.com/course/android-basics-nanodegree-by-google--nd803) course. It's an approachable path to learning android dev, and I've had a lot of fun with it (although if you have coding experience you may find yourself skipping a lot).  While doing this I encountered something I haven't really used before: ****Anonymous functions****. They are heavily used when writing/overriding many builtin Android methods, including OnClickListeners, which are used to respond to when a user taps on an element of your app (something you are going to do a lot). Here's an example from my code:
+Lately I've been working my way through the free version of Udacity's [Android Basics](https://www.udacity.com/course/android-basics-nanodegree-by-google--nd803) course. It's an approachable path to learning android dev, and I've had a lot of fun with it (although if you have coding experience you may find yourself skipping a lot).  While doing this I encountered something I haven't really used before: **Anonymous functions**. They are heavily used when writing/overriding many builtin Android methods, including OnClickListeners, which are used to respond to when a user taps on an element of your app (something you are going to do a lot). Here's an example from my code:
 
 ```java
 TextView numbersView = (TextView) findViewById(R.id.numbers);
