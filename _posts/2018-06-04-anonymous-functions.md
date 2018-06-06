@@ -8,7 +8,7 @@ title: Anonymous Functions
 categories:
   - personal
   - software
-tags: '"Anonymous Functions" "Lamba Expressions" "Android" "Java" "Javascript"'
+tags: ' Android Java Javascript Functional Anonymous'
 ---
 ## What's in a name?
 
